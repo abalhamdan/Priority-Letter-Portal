@@ -1,0 +1,17 @@
+{
+  "name": "mdot-priority-letter-form",
+  "type": "widget",
+  "version": "1.0.0",
+  "exbVersion": "1.20.0",
+  "author": "MDOT",
+  "description": "Priority Letter submission form with role-based auth (Submitter / Reviewer / Admin), multi-project entry, auto-save, and ArcGIS Feature Service submission.",
+  "label": "MDOT Priority Letter Form",
+  "defaultSize": {
+    "width": 1280,
+    "height": 1000
+  },
+  "properties": {
+    "hasConfig": false,
+    "hasSettingPage": false
+  }
+}

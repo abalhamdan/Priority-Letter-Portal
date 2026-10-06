@@ -1,0 +1,17 @@
+{
+  "name": "mdot-priority-letter-guidance",
+  "type": "widget",
+  "version": "1.0.0",
+  "exbVersion": "1.20.0",
+  "author": "MDOT",
+  "description": "Priority Letter Portal — landing page with guidance, process steps, and CTA to the submission form.",
+  "label": "MDOT Priority Letter Guidance",
+  "defaultSize": {
+    "width": 1280,
+    "height": 900
+  },
+  "properties": {
+    "hasConfig": false,
+    "hasSettingPage": false
+  }
+}
