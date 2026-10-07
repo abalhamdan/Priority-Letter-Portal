@@ -275,9 +275,16 @@
   "dialogs": {},
   "messageConfigs": {},
   "attributes": {
-    "portalUrl": "https://SPP.maps.arcgis.com"
+    "portalUrl": "https://SPP.maps.arcgis.com",
+    "isWebTier": false,
+    "clientId": "",
+    "express": false,
+    "title": "Priority Letter Portal",
+    "description": "",
+    "type": "Web Experience",
+    "thumbnail": null
   },
-  "timestamp": 1791380105415,
+  "timestamp": 1791383388321,
   "sharedThemeVariables": null,
   "mainLocale": "en",
   "dataSources": {},
@@ -306,5 +313,13 @@
       "MEDIUM": "850px",
       "SMALL": "1360px"
     }
-  }
+  },
+  "historyLabels": {
+    "pages": {
+      "page_2": [
+        "Online Form"
+      ]
+    }
+  },
+  "publishTimestamp": 1791383389069
 }
