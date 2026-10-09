@@ -1,0 +1,17 @@
+{
+  "name": "prioritization-landing",
+  "type": "widget",
+  "version": "1.0.0",
+  "exbVersion": "1.20.0",
+  "author": "MDOT CTP",
+  "description": "Full landing page for the MDOT Prioritization Ecosystem: Priority Letter Portal, Prioritization Studies Program, and Project Prioritization Program — with ecosystem pipeline, audience guidance, and key dates.",
+  "label": "Prioritization Landing",
+  "defaultSize": {
+    "width": 1200,
+    "height": 2600
+  },
+  "properties": {
+    "hasConfig": false,
+    "hasSettingPage": false
+  }
+}

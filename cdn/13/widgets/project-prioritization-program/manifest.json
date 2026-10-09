@@ -1,0 +1,17 @@
+{
+  "name": "project-prioritization-program",
+  "type": "widget",
+  "version": "1.0.0",
+  "exbVersion": "1.20.0",
+  "author": "MDOT CTP",
+  "description": "Full-page content widget for the Project Prioritization Program: about the program, process flow, six goal areas, scoring methodology, program documents, and contact CTA.",
+  "label": "Project Prioritization Program",
+  "defaultSize": {
+    "width": 1200,
+    "height": 2400
+  },
+  "properties": {
+    "hasConfig": false,
+    "hasSettingPage": false
+  }
+}

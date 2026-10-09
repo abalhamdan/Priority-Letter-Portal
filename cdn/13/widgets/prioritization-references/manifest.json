@@ -1,0 +1,17 @@
+{
+  "name": "prioritization-references",
+  "type": "widget",
+  "version": "1.0.0",
+  "exbVersion": "1.20.0",
+  "author": "MDOT CTP",
+  "description": "References page for the MDOT Prioritization Portal: FAQ accordion, program contacts, and Archived Priority Letters repository with year/jurisdiction filtering.",
+  "label": "Prioritization References",
+  "defaultSize": {
+    "width": 1200,
+    "height": 2800
+  },
+  "properties": {
+    "hasConfig": false,
+    "hasSettingPage": false
+  }
+}

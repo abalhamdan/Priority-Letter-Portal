@@ -1,0 +1,17 @@
+{
+  "name": "prioritization-studies-program",
+  "type": "widget",
+  "version": "1.0.0",
+  "exbVersion": "1.20.0",
+  "author": "MDOT CTP",
+  "description": "Full-page content widget for the Prioritization Studies Program: about the program, where studies fit in the process pipeline, program documents, and contact CTA.",
+  "label": "Prioritization Studies Program",
+  "defaultSize": {
+    "width": 1200,
+    "height": 2200
+  },
+  "properties": {
+    "hasConfig": false,
+    "hasSettingPage": false
+  }
+}

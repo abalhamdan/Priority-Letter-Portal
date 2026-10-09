@@ -13131,6 +13131,78 @@
     "group": 7
   },
   {
+    "name": "prioritization-landing",
+    "manifest": {
+      "name": "prioritization-landing",
+      "type": "widget",
+      "version": "1.0.0",
+      "exbVersion": "1.20.0",
+      "author": "MDOT CTP",
+      "description": "Full landing page for the MDOT Prioritization Ecosystem: Priority Letter Portal, Prioritization Studies Program, and Project Prioritization Program — with ecosystem pipeline, audience guidance, and key dates.",
+      "label": "Prioritization Landing",
+      "defaultSize": {
+        "width": 1200,
+        "height": 2600
+      },
+      "properties": {
+        "hasConfig": false,
+        "hasSettingPage": false
+      }
+    },
+    "uri": "widgets/prioritization-landing/",
+    "icon": "widgets/prioritization-landing/icon.png",
+    "order": 700,
+    "group": 7
+  },
+  {
+    "name": "prioritization-references",
+    "manifest": {
+      "name": "prioritization-references",
+      "type": "widget",
+      "version": "1.0.0",
+      "exbVersion": "1.20.0",
+      "author": "MDOT CTP",
+      "description": "References page for the MDOT Prioritization Portal: FAQ accordion, program contacts, and Archived Priority Letters repository with year/jurisdiction filtering.",
+      "label": "Prioritization References",
+      "defaultSize": {
+        "width": 1200,
+        "height": 2800
+      },
+      "properties": {
+        "hasConfig": false,
+        "hasSettingPage": false
+      }
+    },
+    "uri": "widgets/prioritization-references/",
+    "icon": "widgets/prioritization-references/icon.png",
+    "order": 700,
+    "group": 7
+  },
+  {
+    "name": "prioritization-studies-program",
+    "manifest": {
+      "name": "prioritization-studies-program",
+      "type": "widget",
+      "version": "1.0.0",
+      "exbVersion": "1.20.0",
+      "author": "MDOT CTP",
+      "description": "Full-page content widget for the Prioritization Studies Program: about the program, where studies fit in the process pipeline, program documents, and contact CTA.",
+      "label": "Prioritization Studies Program",
+      "defaultSize": {
+        "width": 1200,
+        "height": 2200
+      },
+      "properties": {
+        "hasConfig": false,
+        "hasSettingPage": false
+      }
+    },
+    "uri": "widgets/prioritization-studies-program/",
+    "icon": "widgets/prioritization-studies-program/icon.png",
+    "order": 700,
+    "group": 7
+  },
+  {
     "name": "project-page-description",
     "manifest": {
       "name": "project-page-description",
@@ -13415,6 +13487,30 @@
     },
     "uri": "widgets/project-page-stats/",
     "icon": "widgets/project-page-stats/icon.png",
+    "order": 700,
+    "group": 7
+  },
+  {
+    "name": "project-prioritization-program",
+    "manifest": {
+      "name": "project-prioritization-program",
+      "type": "widget",
+      "version": "1.0.0",
+      "exbVersion": "1.20.0",
+      "author": "MDOT CTP",
+      "description": "Full-page content widget for the Project Prioritization Program: about the program, process flow, six goal areas, scoring methodology, program documents, and contact CTA.",
+      "label": "Project Prioritization Program",
+      "defaultSize": {
+        "width": 1200,
+        "height": 2400
+      },
+      "properties": {
+        "hasConfig": false,
+        "hasSettingPage": false
+      }
+    },
+    "uri": "widgets/project-prioritization-program/",
+    "icon": "widgets/project-prioritization-program/icon.png",
     "order": 700,
     "group": 7
   },

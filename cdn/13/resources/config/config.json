@@ -1,0 +1,666 @@
+{
+  "pages": {
+    "page_0": {
+      "id": "page_0",
+      "mode": "AUTO_SCROLL",
+      "type": "NORMAL",
+      "layout": {
+        "LARGE": "layout_0"
+      },
+      "isDefault": false,
+      "isVisible": true,
+      "label": "PriorityLetterPortal",
+      "header": true,
+      "footer": true
+    },
+    "page_2": {
+      "id": "page_2",
+      "mode": "AUTO_SCROLL",
+      "type": "NORMAL",
+      "layout": {
+        "LARGE": "layout_2"
+      },
+      "isDefault": false,
+      "isVisible": true,
+      "label": "OnlineForm",
+      "header": true,
+      "footer": true
+    },
+    "page_4": {
+      "id": "page_4",
+      "mode": "AUTO_SCROLL",
+      "type": "NORMAL",
+      "layout": {
+        "LARGE": "layout_6"
+      },
+      "isDefault": true,
+      "isVisible": true,
+      "label": "Prioritization",
+      "header": true,
+      "footer": true
+    },
+    "page_6": {
+      "id": "page_6",
+      "mode": "AUTO_SCROLL",
+      "type": "NORMAL",
+      "layout": {
+        "LARGE": "layout_8"
+      },
+      "isDefault": false,
+      "isVisible": true,
+      "label": "ProjectPrioritization",
+      "header": true,
+      "footer": true
+    },
+    "page_9": {
+      "id": "page_9",
+      "mode": "AUTO_SCROLL",
+      "type": "NORMAL",
+      "layout": {
+        "LARGE": "layout_9"
+      },
+      "isDefault": false,
+      "isVisible": true,
+      "label": "PrioritizationStudies",
+      "header": true,
+      "footer": true
+    },
+    "page_11": {
+      "id": "page_11",
+      "mode": "AUTO_SCROLL",
+      "type": "NORMAL",
+      "layout": {
+        "LARGE": "layout_12"
+      },
+      "isDefault": false,
+      "isVisible": true,
+      "label": "References",
+      "header": true,
+      "footer": true
+    }
+  },
+  "layouts": {
+    "layout_0": {
+      "type": "FLOW",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_1",
+          "bbox": {
+            "left": "0px",
+            "right": "1074px",
+            "top": "0px",
+            "bottom": "900px",
+            "width": "1074px",
+            "height": 920
+          },
+          "setting": {
+            "heightMode": "auto"
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_1": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_2",
+          "setting": {
+            "heightMode": "fit"
+          },
+          "bbox": {
+            "left": 0,
+            "width": 12,
+            "height": 900
+          }
+        }
+      },
+      "type": "ROW",
+      "label": "Default",
+      "order": [
+        "0"
+      ]
+    },
+    "layout_2": {
+      "type": "FLOW",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_3",
+          "bbox": {
+            "left": "0px",
+            "right": "1074px",
+            "top": "0px",
+            "bottom": "1000px",
+            "width": "1074px",
+            "height": 1020
+          },
+          "setting": {
+            "heightMode": "auto"
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_3": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_4",
+          "setting": {
+            "heightMode": "fit",
+            "autoProps": {
+              "height": "AUTO"
+            }
+          },
+          "bbox": {
+            "left": 0,
+            "width": 12,
+            "height": 1000
+          }
+        }
+      },
+      "type": "ROW",
+      "label": "Default",
+      "order": [
+        "0"
+      ]
+    },
+    "layout_4": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_6",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "100.0%",
+            "height": "98.8%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            }
+          }
+        }
+      },
+      "type": "FIXED",
+      "setting": {
+        "lockDescendants": true
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_5": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_5",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "100.0%",
+            "height": "98.8%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            }
+          }
+        }
+      },
+      "type": "FIXED",
+      "setting": {
+        "lockDescendants": true
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_6": {
+      "type": "FLOW",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_7",
+          "bbox": {
+            "left": "240px",
+            "right": "1440px",
+            "top": "0px",
+            "bottom": "330px",
+            "width": "1200px",
+            "height": 350
+          },
+          "setting": {
+            "heightMode": "auto"
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_7": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_8",
+          "setting": {
+            "heightMode": "fit"
+          },
+          "bbox": {
+            "left": 0,
+            "width": 12,
+            "height": "330px"
+          }
+        }
+      },
+      "type": "ROW",
+      "label": "Default",
+      "order": [
+        "0"
+      ]
+    },
+    "layout_8": {
+      "type": "FLOW",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_11",
+          "bbox": {
+            "left": "152px",
+            "right": "1352px",
+            "top": "0px",
+            "bottom": "330px",
+            "width": "1200px",
+            "height": 350
+          },
+          "setting": {
+            "heightMode": "auto"
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_9": {
+      "type": "FLOW",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_9",
+          "bbox": {
+            "left": "0px",
+            "right": "1200px",
+            "top": "0px",
+            "bottom": "330px",
+            "width": "1200px",
+            "height": 350
+          },
+          "setting": {
+            "heightMode": "auto"
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_10": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_10",
+          "setting": {
+            "heightMode": "fit"
+          },
+          "bbox": {
+            "left": 0,
+            "width": 12,
+            "height": "330px"
+          }
+        }
+      },
+      "type": "ROW",
+      "label": "Default",
+      "order": [
+        "0"
+      ]
+    },
+    "layout_11": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_12",
+          "setting": {
+            "heightMode": "fit"
+          },
+          "bbox": {
+            "left": 0,
+            "width": 12,
+            "height": "330px"
+          }
+        }
+      },
+      "type": "ROW",
+      "label": "Default",
+      "order": [
+        "0"
+      ]
+    },
+    "layout_12": {
+      "type": "FLOW",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_15",
+          "bbox": {
+            "left": "166px",
+            "right": "1366px",
+            "top": "0px",
+            "bottom": "330px",
+            "width": "1200px",
+            "height": 350
+          },
+          "setting": {
+            "heightMode": "auto"
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_14": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_16",
+          "setting": {
+            "heightMode": "fit"
+          },
+          "bbox": {
+            "left": 0,
+            "width": 12,
+            "height": "330px"
+          }
+        }
+      },
+      "type": "ROW",
+      "label": "Default",
+      "order": [
+        "0"
+      ]
+    }
+  },
+  "exbVersion": "1.20.0",
+  "mainSizeMode": "LARGE",
+  "theme": "themes/master/",
+  "forBuilderAttributes": {
+    "lockLayout": false,
+    "viewPortSize": {
+      "MEDIUM": {
+        "width": 768,
+        "height": 1024
+      }
+    }
+  },
+  "template": "blankscrollable",
+  "widgets": {
+    "widget_1": {
+      "uri": "widgets/layout/row/",
+      "version": "1.20.0",
+      "label": "Block",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_1",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_1"
+        }
+      }
+    },
+    "widget_2": {
+      "uri": "widgets/mdot-priority-letter-guidance/",
+      "version": "1.0.0",
+      "label": "MDOT Priority Letter Guidance",
+      "config": null,
+      "id": "widget_2"
+    },
+    "widget_3": {
+      "uri": "widgets/layout/row/",
+      "version": "1.20.0",
+      "label": "Block 2",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_3",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_3"
+        }
+      }
+    },
+    "widget_4": {
+      "uri": "widgets/mdot-priority-letter-form/",
+      "version": "1.0.0",
+      "label": "MDOT Priority Letter Form",
+      "config": null,
+      "id": "widget_4"
+    },
+    "widget_5": {
+      "uri": "widgets/mdot-footer/",
+      "version": "1.0.0",
+      "label": "MDOT Footer",
+      "config": null,
+      "id": "widget_5"
+    },
+    "widget_6": {
+      "uri": "widgets/mdot-priority-letter-header/",
+      "version": "1.0.0",
+      "label": "MDOT Priority Letter Header",
+      "config": null,
+      "id": "widget_6"
+    },
+    "widget_7": {
+      "uri": "widgets/layout/row/",
+      "version": "1.20.0",
+      "label": "Block 3",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_7",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_7"
+        }
+      }
+    },
+    "widget_8": {
+      "uri": "widgets/prioritization-landing/",
+      "version": "1.0.0",
+      "label": "Prioritization Landing",
+      "config": null,
+      "id": "widget_8"
+    },
+    "widget_9": {
+      "uri": "widgets/layout/row/",
+      "version": "1.20.0",
+      "label": "Block 4",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_9",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_10"
+        }
+      }
+    },
+    "widget_10": {
+      "uri": "widgets/prioritization-studies-program/",
+      "version": "1.0.0",
+      "label": "Prioritization Studies Program",
+      "config": null,
+      "id": "widget_10"
+    },
+    "widget_11": {
+      "uri": "widgets/layout/row/",
+      "version": "1.20.0",
+      "label": "Block 5",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_11",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_11"
+        }
+      }
+    },
+    "widget_12": {
+      "uri": "widgets/project-prioritization-program/",
+      "version": "1.0.0",
+      "label": "Project Prioritization Program",
+      "config": null,
+      "id": "widget_12"
+    },
+    "widget_15": {
+      "uri": "widgets/layout/row/",
+      "version": "1.20.0",
+      "label": "Block 6",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_15",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_14"
+        }
+      }
+    },
+    "widget_16": {
+      "uri": "widgets/prioritization-references/",
+      "version": "1.0.0",
+      "label": "Prioritization References",
+      "config": null,
+      "id": "widget_16"
+    }
+  },
+  "widgetsManifest": {},
+  "views": {},
+  "sections": {},
+  "dialogs": {},
+  "messageConfigs": {},
+  "attributes": {
+    "portalUrl": "https://SPP.maps.arcgis.com"
+  },
+  "timestamp": 1791524637920,
+  "sharedThemeVariables": null,
+  "mainLocale": "en",
+  "dataSources": {},
+  "pageStructure": [
+    {
+      "page_4": []
+    },
+    {
+      "page_0": []
+    },
+    {
+      "page_2": []
+    },
+    {
+      "page_6": []
+    },
+    {
+      "page_9": []
+    },
+    {
+      "page_11": []
+    }
+  ],
+  "header": {
+    "layout": {
+      "LARGE": "layout_4"
+    },
+    "height": {
+      "LARGE": "250px"
+    }
+  },
+  "footer": {
+    "layout": {
+      "LARGE": "layout_5"
+    },
+    "height": {
+      "LARGE": "500px",
+      "MEDIUM": "850px",
+      "SMALL": "1360px"
+    }
+  }
+}
