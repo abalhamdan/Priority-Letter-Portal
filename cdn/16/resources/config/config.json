@@ -7,7 +7,7 @@
       "layout": {
         "LARGE": "layout_0"
       },
-      "isDefault": false,
+      "isDefault": true,
       "isVisible": true,
       "label": "PriorityLetterPortal",
       "header": true,
@@ -26,55 +26,16 @@
       "header": true,
       "footer": true
     },
-    "page_4": {
-      "id": "page_4",
+    "page_13": {
+      "id": "page_13",
       "mode": "AUTO_SCROLL",
       "type": "NORMAL",
       "layout": {
-        "LARGE": "layout_6"
-      },
-      "isDefault": true,
-      "isVisible": true,
-      "label": "Prioritization",
-      "header": true,
-      "footer": true
-    },
-    "page_6": {
-      "id": "page_6",
-      "mode": "AUTO_SCROLL",
-      "type": "NORMAL",
-      "layout": {
-        "LARGE": "layout_8"
+        "LARGE": "layout_15"
       },
       "isDefault": false,
       "isVisible": true,
-      "label": "ProjectPrioritization",
-      "header": true,
-      "footer": true
-    },
-    "page_9": {
-      "id": "page_9",
-      "mode": "AUTO_SCROLL",
-      "type": "NORMAL",
-      "layout": {
-        "LARGE": "layout_9"
-      },
-      "isDefault": false,
-      "isVisible": true,
-      "label": "PrioritizationStudies",
-      "header": true,
-      "footer": true
-    },
-    "page_11": {
-      "id": "page_11",
-      "mode": "AUTO_SCROLL",
-      "type": "NORMAL",
-      "layout": {
-        "LARGE": "layout_12"
-      },
-      "isDefault": false,
-      "isVisible": true,
-      "label": "References",
+      "label": "What'sInaPriorityLetter",
       "header": true,
       "footer": true
     }
@@ -233,79 +194,12 @@
         "0"
       ]
     },
-    "layout_6": {
+    "layout_15": {
       "type": "FLOW",
       "content": {
         "0": {
           "type": "WIDGET",
-          "widgetId": "widget_7",
-          "bbox": {
-            "left": "240px",
-            "right": "1440px",
-            "top": "0px",
-            "bottom": "330px",
-            "width": "1200px",
-            "height": 350
-          },
-          "setting": {
-            "heightMode": "auto"
-          }
-        }
-      },
-      "order": [
-        "0"
-      ]
-    },
-    "layout_7": {
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_8",
-          "setting": {
-            "heightMode": "fit"
-          },
-          "bbox": {
-            "left": 0,
-            "width": 12,
-            "height": "330px"
-          }
-        }
-      },
-      "type": "ROW",
-      "label": "Default",
-      "order": [
-        "0"
-      ]
-    },
-    "layout_8": {
-      "type": "FLOW",
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_11",
-          "bbox": {
-            "left": "152px",
-            "right": "1352px",
-            "top": "0px",
-            "bottom": "330px",
-            "width": "1200px",
-            "height": 350
-          },
-          "setting": {
-            "heightMode": "auto"
-          }
-        }
-      },
-      "order": [
-        "0"
-      ]
-    },
-    "layout_9": {
-      "type": "FLOW",
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_9",
+          "widgetId": "widget_17",
           "bbox": {
             "left": "0px",
             "right": "1200px",
@@ -323,83 +217,18 @@
         "0"
       ]
     },
-    "layout_10": {
+    "layout_16": {
       "content": {
         "0": {
           "type": "WIDGET",
-          "widgetId": "widget_10",
+          "widgetId": "widget_18",
           "setting": {
             "heightMode": "fit"
           },
           "bbox": {
             "left": 0,
             "width": 12,
-            "height": "330px"
-          }
-        }
-      },
-      "type": "ROW",
-      "label": "Default",
-      "order": [
-        "0"
-      ]
-    },
-    "layout_11": {
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_12",
-          "setting": {
-            "heightMode": "fit"
-          },
-          "bbox": {
-            "left": 0,
-            "width": 12,
-            "height": "330px"
-          }
-        }
-      },
-      "type": "ROW",
-      "label": "Default",
-      "order": [
-        "0"
-      ]
-    },
-    "layout_12": {
-      "type": "FLOW",
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_15",
-          "bbox": {
-            "left": "166px",
-            "right": "1366px",
-            "top": "0px",
-            "bottom": "330px",
-            "width": "1200px",
-            "height": 350
-          },
-          "setting": {
-            "heightMode": "auto"
-          }
-        }
-      },
-      "order": [
-        "0"
-      ]
-    },
-    "layout_14": {
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_16",
-          "setting": {
-            "heightMode": "fit"
-          },
-          "bbox": {
-            "left": 0,
-            "width": 12,
-            "height": "330px"
+            "height": 330
           }
         }
       },
@@ -496,10 +325,10 @@
       "config": null,
       "id": "widget_6"
     },
-    "widget_7": {
+    "widget_17": {
       "uri": "widgets/layout/row/",
       "version": "1.20.0",
-      "label": "Block 3",
+      "label": "Block 7",
       "config": {
         "space": 10,
         "style": {
@@ -511,106 +340,19 @@
           }
         }
       },
-      "id": "widget_7",
+      "id": "widget_17",
       "layouts": {
         "DEFAULT": {
-          "LARGE": "layout_7"
+          "LARGE": "layout_16"
         }
       }
     },
-    "widget_8": {
-      "uri": "widgets/prioritization-landing/",
+    "widget_18": {
+      "uri": "widgets/mdot-priority-letter-info/",
       "version": "1.0.0",
-      "label": "Prioritization Landing",
+      "label": "MDOT Priority Letter Info",
       "config": null,
-      "id": "widget_8"
-    },
-    "widget_9": {
-      "uri": "widgets/layout/row/",
-      "version": "1.20.0",
-      "label": "Block 4",
-      "config": {
-        "space": 10,
-        "style": {
-          "padding": {
-            "number": [
-              10
-            ],
-            "unit": "px"
-          }
-        }
-      },
-      "id": "widget_9",
-      "layouts": {
-        "DEFAULT": {
-          "LARGE": "layout_10"
-        }
-      }
-    },
-    "widget_10": {
-      "uri": "widgets/prioritization-studies-program/",
-      "version": "1.0.0",
-      "label": "Prioritization Studies Program",
-      "config": null,
-      "id": "widget_10"
-    },
-    "widget_11": {
-      "uri": "widgets/layout/row/",
-      "version": "1.20.0",
-      "label": "Block 5",
-      "config": {
-        "space": 10,
-        "style": {
-          "padding": {
-            "number": [
-              10
-            ],
-            "unit": "px"
-          }
-        }
-      },
-      "id": "widget_11",
-      "layouts": {
-        "DEFAULT": {
-          "LARGE": "layout_11"
-        }
-      }
-    },
-    "widget_12": {
-      "uri": "widgets/project-prioritization-program/",
-      "version": "1.0.0",
-      "label": "Project Prioritization Program",
-      "config": null,
-      "id": "widget_12"
-    },
-    "widget_15": {
-      "uri": "widgets/layout/row/",
-      "version": "1.20.0",
-      "label": "Block 6",
-      "config": {
-        "space": 10,
-        "style": {
-          "padding": {
-            "number": [
-              10
-            ],
-            "unit": "px"
-          }
-        }
-      },
-      "id": "widget_15",
-      "layouts": {
-        "DEFAULT": {
-          "LARGE": "layout_14"
-        }
-      }
-    },
-    "widget_16": {
-      "uri": "widgets/prioritization-references/",
-      "version": "1.0.0",
-      "label": "Prioritization References",
-      "config": null,
-      "id": "widget_16"
+      "id": "widget_18"
     }
   },
   "widgetsManifest": {},
@@ -621,14 +363,11 @@
   "attributes": {
     "portalUrl": "https://SPP.maps.arcgis.com"
   },
-  "timestamp": 1791549626806,
+  "timestamp": 1792592888573,
   "sharedThemeVariables": null,
   "mainLocale": "en",
   "dataSources": {},
   "pageStructure": [
-    {
-      "page_4": []
-    },
     {
       "page_0": []
     },
@@ -636,13 +375,7 @@
       "page_2": []
     },
     {
-      "page_6": []
-    },
-    {
-      "page_9": []
-    },
-    {
-      "page_11": []
+      "page_13": []
     }
   ],
   "header": {
@@ -658,9 +391,12 @@
       "LARGE": "layout_5"
     },
     "height": {
-      "LARGE": "500px",
+      "LARGE": "470px",
       "MEDIUM": "850px",
       "SMALL": "1360px"
     }
+  },
+  "permission": {
+    "restrictions": []
   }
 }

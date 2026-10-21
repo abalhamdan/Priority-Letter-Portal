@@ -12361,6 +12361,30 @@
     "group": 7
   },
   {
+    "name": "mdot-attainment-report",
+    "manifest": {
+      "name": "mdot-attainment-report",
+      "type": "widget",
+      "version": "1.0.0",
+      "exbVersion": "1.20.0",
+      "author": "MDOT CTP",
+      "description": "Maryland's Attainment Report on Transportation System Performance: overview, current report downloads, goal-by-goal reports, and the archive of prior reports, styled for the MDOT Capital Budget Hub.",
+      "label": "MDOT Attainment Report",
+      "defaultSize": {
+        "width": 1200,
+        "height": 1900
+      },
+      "properties": {
+        "hasConfig": false,
+        "hasSettingPage": false
+      }
+    },
+    "uri": "widgets/mdot-attainment-report/",
+    "icon": "widgets/mdot-attainment-report/icon.png",
+    "order": 700,
+    "group": 7
+  },
+  {
     "name": "mdot-breadcrumb",
     "manifest": {
       "name": "mdot-breadcrumb",
@@ -12747,6 +12771,30 @@
     "group": 7
   },
   {
+    "name": "mdot-maryland-transportation-plan",
+    "manifest": {
+      "name": "mdot-maryland-transportation-plan",
+      "type": "widget",
+      "version": "1.0.0",
+      "exbVersion": "1.20.0",
+      "author": "MDOT CTP",
+      "description": "The Maryland Transportation Plan (the 2050 Playbook): masthead, plan overview, PDF downloads, archived appendices, and contact information, styled for the MDOT Capital Budget Hub.",
+      "label": "MDOT Maryland Transportation Plan",
+      "defaultSize": {
+        "width": 1200,
+        "height": 1500
+      },
+      "properties": {
+        "hasConfig": false,
+        "hasSettingPage": false
+      }
+    },
+    "uri": "widgets/mdot-maryland-transportation-plan/",
+    "icon": "widgets/mdot-maryland-transportation-plan/icon.png",
+    "order": 700,
+    "group": 7
+  },
+  {
     "name": "mdot-money-comes-from",
     "manifest": {
       "name": "mdot-money-comes-from",
@@ -12819,6 +12867,30 @@
     "group": 7
   },
   {
+    "name": "mdot-prioritization-header",
+    "manifest": {
+      "name": "mdot-prioritization-header",
+      "type": "widget",
+      "version": "1.0.0",
+      "exbVersion": "1.20.0",
+      "author": "MDOT",
+      "description": "Site header for the Prioritization site — same layout as mdot-priority-letter-header but branded for the Prioritization site.",
+      "label": "MDOT Prioritization Header",
+      "defaultSize": {
+        "width": 1280,
+        "height": 140
+      },
+      "properties": {
+        "hasConfig": false,
+        "hasSettingPage": false
+      }
+    },
+    "uri": "widgets/mdot-prioritization-header/",
+    "icon": "widgets/mdot-prioritization-header/icon.png",
+    "order": 700,
+    "group": 7
+  },
+  {
     "name": "mdot-priority-letter-form",
     "manifest": {
       "name": "mdot-priority-letter-form",
@@ -12887,6 +12959,30 @@
     },
     "uri": "widgets/mdot-priority-letter-header/",
     "icon": "widgets/mdot-priority-letter-header/icon.png",
+    "order": 700,
+    "group": 7
+  },
+  {
+    "name": "mdot-priority-letter-info",
+    "manifest": {
+      "name": "mdot-priority-letter-info",
+      "type": "widget",
+      "version": "1.0.0",
+      "exbVersion": "1.20.0",
+      "author": "MDOT",
+      "description": "What's in a Priority Letter: how to answer the Priority Letter online form, the example description, and the 11 form questions. Includes the Planning & Programming sidebar.",
+      "label": "MDOT Priority Letter Info",
+      "defaultSize": {
+        "width": 1200,
+        "height": 1500
+      },
+      "properties": {
+        "hasConfig": false,
+        "hasSettingPage": false
+      }
+    },
+    "uri": "widgets/mdot-priority-letter-info/",
+    "icon": "widgets/mdot-priority-letter-info/icon.png",
     "order": 700,
     "group": 7
   },
@@ -13083,6 +13179,54 @@
     "group": 7
   },
   {
+    "name": "mdot-state-report-header",
+    "manifest": {
+      "name": "mdot-state-report-header",
+      "type": "widget",
+      "version": "1.0.0",
+      "exbVersion": "1.20.0",
+      "author": "MDOT",
+      "description": "Site header for the State Report on Transportation site — same four-row layout as the other MDOT site headers, with navigation for the State Report, Maryland Transportation Plan, CTP and Attainment Report.",
+      "label": "MDOT State Report Header",
+      "defaultSize": {
+        "width": 1280,
+        "height": 140
+      },
+      "properties": {
+        "hasConfig": false,
+        "hasSettingPage": false
+      }
+    },
+    "uri": "widgets/mdot-state-report-header/",
+    "icon": "widgets/mdot-state-report-header/icon.png",
+    "order": 700,
+    "group": 7
+  },
+  {
+    "name": "mdot-state-report-landing",
+    "manifest": {
+      "name": "mdot-state-report-landing",
+      "type": "widget",
+      "version": "1.0.0",
+      "exbVersion": "1.20.0",
+      "author": "MDOT CTP",
+      "description": "Landing page for the State Report on Transportation: introduces the Maryland Transportation Plan, the Consolidated Transportation Program, and the Attainment Report and links to each.",
+      "label": "MDOT State Report Landing",
+      "defaultSize": {
+        "width": 1200,
+        "height": 1800
+      },
+      "properties": {
+        "hasConfig": false,
+        "hasSettingPage": false
+      }
+    },
+    "uri": "widgets/mdot-state-report-landing/",
+    "icon": "widgets/mdot-state-report-landing/icon.png",
+    "order": 700,
+    "group": 7
+  },
+  {
     "name": "mdot-updates",
     "manifest": {
       "name": "mdot-updates",
@@ -13162,8 +13306,8 @@
       "version": "1.0.0",
       "exbVersion": "1.20.0",
       "author": "MDOT CTP",
-      "description": "References page for the MDOT Prioritization Portal: FAQ accordion, program contacts, and Archived Priority Letters repository with year/jurisdiction filtering.",
-      "label": "Prioritization References",
+      "description": "References page for the Priority Letter Portal site: FAQ accordion, program contacts, and Archived Priority Letters repository with year/jurisdiction filtering.",
+      "label": "Priority Letter Portal References",
       "defaultSize": {
         "width": 1200,
         "height": 2800
@@ -13175,6 +13319,30 @@
     },
     "uri": "widgets/prioritization-references/",
     "icon": "widgets/prioritization-references/icon.png",
+    "order": 700,
+    "group": 7
+  },
+  {
+    "name": "prioritization-site-references",
+    "manifest": {
+      "name": "prioritization-site-references",
+      "type": "widget",
+      "version": "1.0.0",
+      "exbVersion": "1.20.0",
+      "author": "MDOT CTP",
+      "description": "References page for the Prioritization site: program documents and links, frequently asked questions about Prioritization Studies and Project Prioritization, and contacts. Includes the Planning & Programming sidebar.",
+      "label": "MDOT Prioritization References",
+      "defaultSize": {
+        "width": 1200,
+        "height": 1600
+      },
+      "properties": {
+        "hasConfig": false,
+        "hasSettingPage": false
+      }
+    },
+    "uri": "widgets/prioritization-site-references/",
+    "icon": "widgets/prioritization-site-references/icon.png",
     "order": 700,
     "group": 7
   },

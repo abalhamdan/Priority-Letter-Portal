@@ -1,0 +1,17 @@
+{
+  "name": "mdot-priority-letter-info",
+  "type": "widget",
+  "version": "1.0.0",
+  "exbVersion": "1.20.0",
+  "author": "MDOT",
+  "description": "What's in a Priority Letter: how to answer the Priority Letter online form, the example description, and the 11 form questions. Includes the Planning & Programming sidebar.",
+  "label": "MDOT Priority Letter Info",
+  "defaultSize": {
+    "width": 1200,
+    "height": 1500
+  },
+  "properties": {
+    "hasConfig": false,
+    "hasSettingPage": false
+  }
+}
