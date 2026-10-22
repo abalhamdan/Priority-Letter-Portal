@@ -13306,11 +13306,11 @@
       "version": "1.0.0",
       "exbVersion": "1.20.0",
       "author": "MDOT CTP",
-      "description": "References page for the Priority Letter Portal site: FAQ accordion, program contacts, and Archived Priority Letters repository with year/jurisdiction filtering.",
+      "description": "References page for the Priority Letter Portal site: Frequently Asked Questions and Contact for Assistance, with the Planning & Programming sidebar.",
       "label": "Priority Letter Portal References",
       "defaultSize": {
         "width": 1200,
-        "height": 2800
+        "height": 1800
       },
       "properties": {
         "hasConfig": false,
