@@ -12867,6 +12867,103 @@
     "group": 7
   },
   {
+    "name": "mdot-noa-dashboard",
+    "manifest": {
+      "name": "mdot-noa-dashboard",
+      "type": "widget",
+      "version": "1.0.0",
+      "exbVersion": "1.20.0",
+      "author": "MDOT",
+      "description": "NOA dashboard: one widget with a side bar that switches between the Composite, Safety, Congestion, Reliability, Access and Resilience views. Each view has its own web map, KPI cards, legend and segment details, with County / District / MPO filters shared across views.",
+      "label": "MDOT NOA Dashboard",
+      "defaultSize": {
+        "width": 1280,
+        "height": 1000
+      },
+      "properties": {
+        "hasConfig": false,
+        "hasSettingPage": false
+      },
+      "dependency": "jimu-arcgis"
+    },
+    "uri": "widgets/mdot-noa-dashboard/",
+    "icon": "widgets/mdot-noa-dashboard/icon.png",
+    "order": 700,
+    "group": 7
+  },
+  {
+    "name": "mdot-noa-header",
+    "manifest": {
+      "name": "mdot-noa-header",
+      "type": "widget",
+      "version": "1.0.0",
+      "exbVersion": "1.20.0",
+      "author": "MDOT",
+      "description": "Site header for the Needs and Opportunities Assessment (NOA) site: same MDOT header design as the other sites, with navigation for the Composite, Safety, Congestion, Reliability, Access and Resilience tabs.",
+      "label": "MDOT NOA Header",
+      "defaultSize": {
+        "width": 1280,
+        "height": 140
+      },
+      "properties": {
+        "hasConfig": false,
+        "hasSettingPage": false
+      }
+    },
+    "uri": "widgets/mdot-noa-header/",
+    "icon": "widgets/mdot-noa-header/icon.png",
+    "order": 700,
+    "group": 7
+  },
+  {
+    "name": "mdot-noa-home",
+    "manifest": {
+      "name": "mdot-noa-home",
+      "type": "widget",
+      "version": "1.0.0",
+      "exbVersion": "1.20.0",
+      "author": "MDOT",
+      "description": "NOA home page: hero, the five performance themes plus the Composite view (each opens the dashboard), intended users, how to use the tool, about, and principal goals.",
+      "label": "MDOT NOA Home",
+      "defaultSize": {
+        "width": 1200,
+        "height": 2600
+      },
+      "properties": {
+        "hasConfig": false,
+        "hasSettingPage": false
+      }
+    },
+    "uri": "widgets/mdot-noa-home/",
+    "icon": "widgets/mdot-noa-home/icon.png",
+    "order": 700,
+    "group": 7
+  },
+  {
+    "name": "mdot-noa-user-guide",
+    "manifest": {
+      "name": "mdot-noa-user-guide",
+      "type": "widget",
+      "version": "1.0.0",
+      "exbVersion": "1.20.0",
+      "author": "MDOT",
+      "description": "NOA user guide: how to read the need rankings, what each performance theme measures, how to use the dashboard, what a segment popup shows, data sources and common questions.",
+      "label": "MDOT NOA User Guide",
+      "defaultSize": {
+        "width": 1200,
+        "height": 1100
+      },
+      "properties": {
+        "hasConfig": false,
+        "hasSettingPage": false
+      }
+    },
+    "uri": "widgets/mdot-noa-user-guide/",
+    "icon": "widgets/mdot-noa-user-guide/icon.png",
+    "order": 700,
+    "group": 7
+  },
+  {
     "name": "mdot-prioritization-header",
     "manifest": {
       "name": "mdot-prioritization-header",
@@ -13343,6 +13440,30 @@
     },
     "uri": "widgets/prioritization-site-references/",
     "icon": "widgets/prioritization-site-references/icon.png",
+    "order": 700,
+    "group": 7
+  },
+  {
+    "name": "prioritization-studies-list",
+    "manifest": {
+      "name": "prioritization-studies-list",
+      "type": "widget",
+      "version": "1.0.0",
+      "exbVersion": "1.20.0",
+      "author": "MDOT CTP",
+      "description": "Prioritization Studies document library page: the planning and programming sidebar, a page banner, and the full list of program documents (guides, flow chart, checklist, scope template, data resources) with PDF links and a Final/Draft filter.",
+      "label": "Prioritization Studies List",
+      "defaultSize": {
+        "width": 1200,
+        "height": 1500
+      },
+      "properties": {
+        "hasConfig": false,
+        "hasSettingPage": false
+      }
+    },
+    "uri": "widgets/prioritization-studies-list/",
+    "icon": "widgets/prioritization-studies-list/icon.png",
     "order": 700,
     "group": 7
   },

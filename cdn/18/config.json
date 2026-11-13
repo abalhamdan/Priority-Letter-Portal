@@ -447,9 +447,16 @@
   "dialogs": {},
   "messageConfigs": {},
   "attributes": {
-    "portalUrl": "https://SPP.maps.arcgis.com"
+    "portalUrl": "https://SPP.maps.arcgis.com",
+    "isWebTier": false,
+    "clientId": "",
+    "express": false,
+    "title": "Priority Letter Portal",
+    "description": "",
+    "type": "Web Experience",
+    "thumbnail": null
   },
-  "timestamp": 1792675668038,
+  "timestamp": 1794583437913,
   "sharedThemeVariables": null,
   "mainLocale": "en",
   "dataSources": {},
@@ -487,5 +494,27 @@
   },
   "permission": {
     "restrictions": []
-  }
+  },
+  "utilities": {
+    "utility_1": {
+      "id": "utility_1",
+      "type": "PRINTING",
+      "name": "printTask",
+      "label": "Printing",
+      "url": "https://utility.arcgisonline.com/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task",
+      "source": "org",
+      "orgSetting": {}
+    }
+  },
+  "historyLabels": {
+    "pages": {
+      "page_0": [
+        "Page"
+      ],
+      "page_2": [
+        "Online Form"
+      ]
+    }
+  },
+  "publishTimestamp": 1794583438937
 }
